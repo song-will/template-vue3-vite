@@ -10,7 +10,6 @@ export default defineComponent({
         })
         return () => {
             return <div>
-                add: 1+ 2 = {add(1, 2)}
                 <div>{counterStore.count}</div>
                 <button onClick={() => counterStore.decrement()}>-</button>
                 <button onClick={() => counterStore.increment()}>+</button>
